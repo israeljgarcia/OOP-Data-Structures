@@ -1,0 +1,51 @@
+Your Name: Israel Garcia
+
+1. Describe two benefits of using functions.
+One of the benefits of using functions is that it really
+helps organize code. It is easier to visualize code in 
+a bunch of small parts rather than one large part.
+
+Another benefit of functions is to reduce repetition. 
+Many times I have to perform the same action, so it is
+better to put that code block into a function instead of
+writing all the code out again.
+
+2. If you were getting paid to write this week's "prove" assignment, and could spend another 100 hours on it, what would you do differently?
+I would definitely implement something to catch errors. I know data is not always
+in a nice format, so I would make sure that I only select the columns that I need.
+
+I would also do some Big-O analysis to see if I could improve the performance of my code.
+I think I did pretty well since I only looped through the file once and I did not store 
+too much data at once. I would also try to reduce the amount of global variables.
+
+3. What is the most interesting thing you learned as a part of your work for this class this week?
+The most interesting thing I learned this week was definitely Big-O notation. 
+I always wondered how efficiency was measured in programs. Another cool thing I 
+learned this week was using sftp to download a file from the linux computer
+to my computer. This helped me work on my assign02 a lot faster than I would
+with nano. 
+
+
+4. Describe one specific way that you helped someone else this week, or reached out for help.
+I shared what I learned using sftp so that other students could download the csv files 
+from the linux computers. I think this helped people who would want to work with the 
+csv file on their own computer and people who wanted to use vscode to edit their code.
+It helps me when I am able to visualize the data that I am given, so I opened the csv
+file in excel.
+
+
+5. Are there any topics from this week that you still feel uneasy about, or would like to learn more about?
+I would definitely like to learn more on using Big-O notation to calculate how performant
+some programs could be. I think it is fun and important to know for when I am coding
+something that could use a lot of memory or time.
+
+6. How much time did you spend this week on each of the following:
+
+Reading - 2 hours
+Checkpoint A - 10 mins
+Checkpoint B - 10 mins
+Team Activity - 30 mins
+Data Structures Homework - 1 hour
+Prove Assignment - 5 Hours
+
+If you have other questions or comments for the instructor, please post them to Slack, either in the general channel if others can benefit, or as a direct message if the matter is more personal.
