@@ -67,42 +67,86 @@ class TextBook(Book):
         self.subject = input("Subject: ")
 
     def display_subject(self):
+        """
+        Prints the TextBook's subject in this format:
+        "Subject: subject"
+        """
         print(f'Subject: {self.subject}')
 
 
 class PictureBook(Book):
+    """
+    A child of the Book class, but adds an illustrator member variable.
+    It can also prompt the user for an illustrator and display it.
+
+    Member Variables: (See Book class), illustrator(string)
+
+    Methods: (See Book class), prompt_illustrator(), display_illustrator() 
+    """
+
     def __init__(self):
+        """
+        Calls the Book class __init__ method. and initilizes the
+        illustrator variable to an empty string.
+        """
         super().__init__()
 
         self.illustrator = ''
 
     def prompt_illustrator(self):
+        """
+        Prompts the user to enter an illustrator and sets that input
+        to the illustrator variable.
+
+        Return: none
+        """
         self.illustrator = input("Illustrator: ")
 
     def display_illustrator(self):
+        """
+        Displays the illustator in this format:
+        "Illustrator: illustrator"
+        """
         print(f'Illustrator: {self.illustrator}')
 
 
 def main():
+
+    # Creates a Book object assigned to book
     book = Book()
+
+    # Prompts the user to enter information about the book
     book.prompt_book_info()
     print()
+
+    # Prints the Book's author, title, and publication year
     book.display_book_info()
     print()
 
+    # Creates a TextBook object assigned to textbook
     textbook = TextBook()
     textbook.prompt_book_info()
+
+    # Prompts the user for a subject
     textbook.prompt_subject()
     print()
     textbook.display_book_info()
+
+    # Prints the TextBook's subject
     textbook.display_subject()
     print()
 
+    # Creates a PictureBook object and assigns it to picturebook
     picturebook = PictureBook()
     picturebook.prompt_book_info()
+
+    # Prompts the user to enter an illustrator
     picturebook.prompt_illustrator()
     print()
+
     picturebook.display_book_info()
+
+    # Prints the PictureBook's illustrator
     picturebook.display_illustrator()
 
 
