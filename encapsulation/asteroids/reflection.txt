@@ -1,0 +1,42 @@
+Your Name:
+
+1. In your own words, describe encapsulation.
+Encapsulation is keeping data where it belongs. It is important because if our data is not 
+protected, then we can have a lot of errors in our code in the future. It is like a failsafe
+system that will protect your program from breaking as it expands.
+
+
+2. What is a benefit of using a property instead of just having a setter function (e.g., set_angle(45))?
+Properties are nice because you don't have to call a function to set a value. It also reduces a lot of
+writing code. If you have 10 properties in a class, then you would need 20 get and set methods, but with
+properties, you can just use the same name.
+
+
+3. What is the most interesting thing you learned as a part of your work for this class this week?
+This week I really liked learning about UML. It was a bit difficult for me to understand, but it
+definitely helped me program the beginning of my Asteroids game quicker. Without the UML design 
+I would have to keep track of everything in my brain as I go. They are very useful.
+
+
+4. Describe one specific way that you helped someone else this week, or reached out for help.
+This week I worked in a small team to work on the wrap functionallity of the Asteroids
+assignment. I helped explain some logic, and I also got some help with displaying my 
+images correctly on the screen.
+
+
+5. Are there any topics from this week that you still feel uneasy about, or would like to learn more about?
+UML was easy for me to understand, but I would like to learn how to better design a program.
+I want to learn more about knowing when classes should interact with each other or when
+methods should call each other.
+
+
+6. How much time did you spend this week on each of the following:
+
+Reading - 2hrs
+Checkpoint A - 15mins
+Checkpoint B - 15mins
+Team Activity - 1hr
+Data Structures Homework - 2hrs
+Prove Assignment - 6 hrs
+
+If you have other questions or comments for the instructor, please post them to Slack, either in the general channel if others can benefit, or as a direct message if the matter is more personal.
